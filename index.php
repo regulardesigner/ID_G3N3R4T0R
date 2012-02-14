@@ -54,6 +54,7 @@ function possibilities($a,$b)
 echo "<h1>G&eacute;n&eacute;rateur de fausses d&#x27;identit&eacute;es</h1>";
 echo "<p><strong>Votre ID masculin est : </strong>".$FirstNameM."-".$secondNameM." ".$familly."</p>";
 echo "<p><strong>Votre ID f&eacute;minin est : </strong>".$FirstNameF."-".$secondNameF." ".$familly."</p>";
+echo "<p> This is your email adress : ".$FirstNameF."-".$secondNameF."-".$familly."@mailinator.com<p>";
 echo "<small>Nombre d&#x27;ID masculin possible du g&eacute;n&eacute;rateur : ".possibilities($fakeFirstNameMale,$fakeFamillyName)."</small>";
 echo "<br />";
 echo "<small>Nombre d&#x27;ID feminin possible du g&eacute;n&eacute;rateur : ".possibilities($fakeFirstNameFemale,$fakeFamillyName)."</small>";
